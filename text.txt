@@ -1,5 +1,6 @@
 Alex Korp,3000
 Nikita Borisenko,2000
+Sitarama Raju,8000.02
 
 gfggf, hghgh
 jfhgufhg, 1000

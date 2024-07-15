@@ -11,7 +11,7 @@ def total_salary(path):
             for el in fh.readlines():
                 if el.find(",")>-1:
                     try:
-                        total_salary +=int(el.strip().split(',').pop(1))
+                        total_salary +=float(el.strip().split(',').pop(1))
                     except ValueError as e:
                         print(e)
                         continue
@@ -20,7 +20,7 @@ def total_salary(path):
                     continue
                 
             try:    
-                average_salary = int(total_salary/count)
+                average_salary = round(float(total_salary/count), 2)
             except ZeroDivisionError as e:
                 print(e)
 
